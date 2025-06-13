@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaTrash, FaEdit, FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 
-export default function TodoList() {
+export default function Task() {
   const [tarefa, setTarefa] = useState("");
   const [lista, setLista] = useState([]);
   const [editandoIndex, setEditandoIndex] = useState(null);
