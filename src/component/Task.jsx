@@ -118,7 +118,7 @@ export default function Task() {
             <p className="text-sm text-gray-500">Nenhuma tarefa pendente.</p>
           ) : (
             <ul className="space-y-2">
-              {tarefasPendentes.map((item, index) => {
+              {tarefasPendentes.map((item) => {
                 const originalIndex = lista.indexOf(item);
                 return (
                   <li
@@ -159,7 +159,7 @@ export default function Task() {
             <p className="text-sm text-gray-500">Nenhuma tarefa concluída.</p>
           ) : (
             <ul className="space-y-2">
-              {tarefasConcluidas.map((item, index) => {
+              {tarefasConcluidas.map((item) => {
                 const originalIndex = lista.indexOf(item);
                 return (
                   <li
