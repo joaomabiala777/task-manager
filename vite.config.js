@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: process.env.VITE_BASE_PATH || "/to-do-list",
+  base: process.env.VITE_BASE_PATH || "/task-manager",
 });
